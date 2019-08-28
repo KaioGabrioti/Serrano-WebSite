@@ -2,7 +2,7 @@
 ------------------------------------
 	LibChurch - Event Template
 	Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 
@@ -13,7 +13,7 @@ $(window).on('load', function() {
 	/*------------------
 		Preloder
 	--------------------*/
-	$(".loader").fadeOut(); 
+	$(".loader").fadeOut();
 	$("#preloder").delay(400).fadeOut("slow");
 
 });
@@ -41,10 +41,9 @@ $(window).on('load', function() {
 	/*------------------
 		Counter
 	--------------------*/
-	$(".counter").countdown("2018/07/01", function(event) {
+	$(".counter").countdown("2019/09/01", function(event) {
 		$(this).html(event.strftime("<div class='counter-item'><h4>%D</h4>Days</div>" + "<div class='counter-item'><h4>%H</h4>hours</div>" + "<div class='counter-item'><h4>%M</h4>Mins</div>" + "<div class='counter-item'><h4>%S</h4>secs</div>"));
 	});
 
 
 })(jQuery);
-

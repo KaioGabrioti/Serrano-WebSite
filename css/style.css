@@ -2,7 +2,7 @@
 ------------------------------------
   LibChurch - Event Template
   Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 /*----------------------------------------*/
@@ -55,6 +55,20 @@ p {
 
 img {
 	max-width: 100%;
+}
+
+#icon-king{
+	background-color: white;
+	border: 2px solid;
+	border-radius: 10px;
+}
+
+#icon-oracao{
+	width: 20px;
+}
+
+#dbv-logo{
+	width: 40px;
 }
 
 input:focus,
@@ -227,7 +241,7 @@ ol {
 
 /* header top */
 .top-nav-section {
-	background: #3c1919;
+	background: #e62222;
 	padding: 15px 0;
 }
 
@@ -525,6 +539,7 @@ ol {
 }
 
 .sermon-warp {
+	margin: 30px;
 	background: #f6f8f9;
 	position: relative;
 }
@@ -538,9 +553,8 @@ ol {
 }
 
 .sermon-content {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	padding-left: 70px;
+	float: left;
+	padding: 30px;
 }
 
 .sermon-content h2 {
@@ -980,7 +994,8 @@ ol {
 -----------------------*/
 .footer-section {
 	padding: 20px 0;
-	background: #3c1919;
+	background: #e62222;
+	color: white;
 }
 
 .footer-section .social {
@@ -1000,7 +1015,7 @@ ol {
 
 .copyright p {
 	font-size: 14px;
-	color: #fff;
+	color: #ffffff;
 	margin-bottom: 0;
 }
 
@@ -1474,6 +1489,11 @@ ol {
 
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.container{
+		width: 980px;
+	}
+
 	.counter-top .counter {
 		margin: 0 15px;
 	}
