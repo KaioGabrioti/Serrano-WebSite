@@ -419,6 +419,11 @@ ol {
 	padding: 20px 0;
 }
 
+.event-section-litlle {
+	background: #dd3e3e;
+	padding: 10px 0;                                                                                                                                                                                                         0;
+}
+
 .event-section .counter {
 	display: inline-block;
 	margin: 0 20px;
@@ -497,9 +502,13 @@ ol {
 .about-content h2 {
 	margin-bottom: 30px;
 }
-
 .about-content .site-btn {
 	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+.about-img-dbv{
+	margin-bottom: 170px;
 }
 
 /*---------------------
