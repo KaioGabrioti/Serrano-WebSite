@@ -59,12 +59,21 @@ img {
 
 #icon-king{
 	background-color: white;
-	border: 2px solid;
-	border-radius: 10px;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	color: white;
 }
 
 #icon-oracao{
 	width: 20px;
+}
+
+.title-home {
+	font-weight: 800;
+	font-size: 16px;
+	position: absolute;
 }
 
 #dbv-logo{
@@ -111,6 +120,7 @@ ol {
 
 .site-btn:hover {
 	color: #fff;
+	transition: 1s;
 }
 
 .site-btn.sb-wide {
@@ -122,6 +132,12 @@ ol {
 	border: 2px solid #dd3e3e;
 	color: #fff;
 	letter-spacing: 2px;
+}
+
+.site-btn.sb-line:hover{
+	background-color: #dd3e3e;
+	color: #fff;
+	border-color: #fff;
 }
 
 .site-btn.sb-light-line {
@@ -311,7 +327,7 @@ ol {
 }
 
 .header-section {
-	padding: 30px 0;
+	padding: 20px 0;
 	position: relative;
 }
 
@@ -421,7 +437,7 @@ ol {
 
 .event-section-litlle {
 	background: #dd3e3e;
-	padding: 10px 0;                                                                                                                                                                                                         0;
+	padding: 10px 0;
 }
 
 .event-section .counter {
