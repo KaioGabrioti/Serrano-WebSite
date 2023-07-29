@@ -37,6 +37,7 @@ h2 {
 
 h3 {
 	font-size: 30px;
+	color: #fff
 }
 
 h4 {
@@ -256,22 +257,8 @@ ol {
 -----------------------*/
 
 /* header top */
-.top-nav-section {
-	background: #e62222;
-	padding: 15px 0;
-}
-
-.top-nav-section .social {
-	display: inline-block;
-	margin-top: 10px;
-}
-
-.top-nav-section .social a {
-	color: #fff;
-	margin-right: 30px;
-}
-
 .counter-top {
+	padding: 15px 0;
 	text-align: center;
 }
 
@@ -303,7 +290,7 @@ ol {
 
 .counter-top .counter .counter-item h4 {
 	font-size: 20px;
-	color: #fff;
+	color:#fff;
 }
 
 .counter-top .top-readmore {
@@ -315,19 +302,13 @@ ol {
 	position: relative;
 }
 
-.user-input {
-	float: right;
-	padding-top: 10px;
-}
-
-.user-input a {
-	color: #fff;
-	font-size: 14px;
-	text-transform: uppercase;
+.text-menu{
+	text-align: center;
+	padding: 25px 0px;
 }
 
 .header-section {
-	padding: 20px 0;
+	background: #e62222;
 	position: relative;
 }
 
@@ -1756,6 +1737,10 @@ ol {
 
 	.container{
 		width: 100%;
+	}
+
+	.counter-top {
+		display: none;
 	}
 
 	.hero-section .hero-content h2 {

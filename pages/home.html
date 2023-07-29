@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 	<title>Clube de Desbravadores Serrano</title>
 	<meta charset="UTF-8">
@@ -7,17 +7,18 @@
 	<meta name="keywords" content="event, libChurch, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
-	<link href="img/dbv-logo.png" rel="shortcut icon"/>
+	<link href="../img/dbv-logo.png" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/themify-icons.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../css/themify-icons.css"/>
+	<link rel="stylesheet" href="../css/style.css"/>
+	<link rel="stylesheet" href="../css/menu.css"/>
 
 
 	<!--[if lt IE 9]>
@@ -32,72 +33,118 @@
 		<div class="loader"></div>
 	</div>
 
-	<!-- header top section -->
-	<div class="top-nav-section hidden-xs">
-		<div class="container">
+	<!-- Header section  -->
+	<header class="header-section">
+		<div class="container">		
 			<div class="row">
-				<div class="col-sm-3 col-md-3 col-lg-3">
-					<div class="social">
-						<a href="https://www.facebook.com/ClubeSerrano/" target="_blank"><i class="ti-facebook"></i></a>
-						<a href="https://instagram.com/serranoclube" target="_blank"><i class="ti-instagram"></i></a>
+				<div class="col-sm-6 col-md-5 col-lg-4">
+					
+				</div>
+				<div class="col-sm-6 col-md-8 col-lg-4">
+					<div class="text-menu">
+						<h3>Logo vem aqui</h3>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-7 col-lg-6">
+				<div class="col-sm-6 col-md-4 col-lg-4">
 					<div class="counter-top">
 						<h5>Próximo Evento:</h5>
 						<div class="counter">
-							<div class="counter-item"><h4></h4>Days</div>
-							<div class="counter-item"><h4></h4>hours</div>
-							<div class="counter-item"><h4></h4>Mins</div>
-							<div class="counter-item"><h4></h4>secs</div>
+							<div class="counter-item"><h4></h4>Dias</div>
+							<div class="counter-item"><h4></h4>Hors</div>
+							<div class="counter-item"><h4></h4>Minutos</div>
+							<div class="counter-item"><h4></h4>Segundos</div>
 						</div>
 					</div>
+					<!-- <div class="social">
+						<a href="https://www.facebook.com/ClubeSerrano/" target="_blank"><i class="ti-facebook"></i></a>
+						<a href="https://instagram.com/serranoclube" target="_blank"><i class="ti-instagram"></i></a>
+					</div>-->
 				</div>
-				<div class="col-sm-3 col-md-2 col-lg-3">
-					<div class="user-input">
-						<img src="img/dbv-logo.png" id="dbv-logo" alt="Clube Serrano">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- header top section end-->
-
-
-	<!-- Header section  -->
-	<header class="header-section">
-		<div class="container">
-			<!-- logo -->
-			<div class="title-home">
-				<a href="index.html" class="site-logo"><img src="img/dbv-logo.png" id="dbv-logo" alt="Clube Serrano"></a>Clube Serrano
-			</div>
-			
+			</div>	
 			<!-- nav menu -->
-			<div class="nav-switch">
-				<i class="fa fa-bars"></i>
-			</div>
-			<nav class="main-menu">
-				<ul>
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="galeria-home.html">Galeria</a></li>
-					<li><a href="nossahistoria.html">Nossa História</a></li>
-					<li><a href="unidades.html">Unidades</a></li>
-					<li><a href="eventos.html">Eventos</a></li>
-					<li><a href="contatos.html">Contato</a></li>
-				</ul>
-			</nav>
+			<div class="hambuguer-menu">
+				<input id="menu__toggle" type="checkbox" style="display: none;">
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+					<div>
+						<img style="border: 1px solid #fff;border-radius: 100px;width: 160px;height: 160px;margin: 20px 70px;background-image: url('../img/diretores/2.jpg');background-repeat: no-repeat;background-position: center;background-size: contain;"/>
+					</div>
+					<li class="menu__item">
+						<a class="menu__item1" href="feed.html">Feed</a>
+					</li>
+					<ul class="menu__item" style="border: 1px solid red;">
+						<li class="menu__item">
+							<a class="menu__item1" href="nossahistoria.html">O Clube</a>
+						</li>
+						<ul>
+							<li class="menu__item">
+								<a class="menu__item1" href="nossahistoria.html">Nossa História</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__item1" href="nossahistoria.html">Diretoria</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__item1" href="nossahistoria.html">Unidades</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__item1" href="galeria-home.html">Galeria</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__item1" href="nossahistoria.html">Coral</a>
+							</li>
+						</ul>
+					</ul>
+					<li class="menu__item">
+						<a class="menu__item1" href="galeria-home.html">Meditações</a>
+						<ul class="menu__box">
+							<li class="menu__item">
+								<a class="menu__item1" href="galeria-home.html">Um minuto</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__item1" href="galeria-home.html">Estudo da Lição</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__item1" href="galeria-home.html">Mensagem do Diretor</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item1" href="unidades.html">Unidades</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item1" href="eventos.html">Especialidades</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item1" href="contatos.html">Contato</a>
+					</li>
+					--------------------------------------------------------
+					<li class="menu__item">
+						<a class="menu__item1" href="contatos.html">Clube</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item1" href="contatos.html">Financeiro</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item1" href="contatos.html">Almoxarifado</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item1" href="contatos.html">Almoxarifado</a>
+					</li>
+                </ul>
+                </div>
 		</div>
 	</header>
 	<!-- Header section end -->
 
-
-	<!-- Hero section -->
-	<section class="hero-section set-bg" data-setbg="img/banner.jpg">
+	<!-- Banner Principal section -->
+	<section class="hero-section set-bg" data-setbg="../img/banner.jpg">
 		<div class="hero-content">
 			<div class="hc-inner">
 				<div class="container">
 					<h2>Clube de Desbravadores Serrano</h2>
-					<p>	Isso que bate no meu coração	<i class="fa fa-heart-o" aria-hidden="true"></i></p>
+					<p>	Deus é...</p>
 					<a href="contatos.html" class="site-btn sb-wide sb-line">Junte-se a nós</a>
 				</div>
 			</div>
@@ -466,13 +513,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/jquery.countdown.js"></script>
-	<script src="js/main.js"></script>
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/jquery.countdown.js"></script>
+	<script src="../js/main.js"></script>
 
 	<!-- load for map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOGhS4FQVVgblKmTKvo2i_YGmA7rvwfro"></script>
-	<script src="js/map.js"></script>
+	<script src="../js/map.js"></script>
 
 </body>
 </html>

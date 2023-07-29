@@ -41,7 +41,7 @@ $(window).on('load', function() {
 	/*------------------
 		Counter
 	--------------------*/
-	$(".counter").countdown("2022/06/16", function(event) {
+	$(".counter").countdown("2023/08/29", function(event) {
 		$(this).html(event.strftime("<div class='counter-item'><h4>%D</h4>Days</div>" + "<div class='counter-item'><h4>%H</h4>hours</div>" + "<div class='counter-item'><h4>%M</h4>Mins</div>" + "<div class='counter-item'><h4>%S</h4>secs</div>"));
 	});
 
